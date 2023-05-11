@@ -1,0 +1,106 @@
+body {
+    background-color:  hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Overpass;
+
+}
+
+#card {
+    background-color: hsl(213, 19%, 18%);
+    width: 500px;
+    border-radius: 20px;
+
+}
+
+#star-button {
+    border-radius: 100%;
+    background-color: hsla(217, 12%, 63%, 0.110);
+    border: none;
+    padding: 16px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#title {
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 15px;
+    
+}
+
+#container {
+    padding: 3.5rem;
+   
+}
+
+#text {
+    color: hsl(217, 12%, 63%);
+    font-size: 16px;
+    margin-bottom: 25px;
+
+}
+
+.num {
+    display: inline-block;
+    color: hsl(217, 12%, 63%);
+    background-color: hsla(217, 12%, 63%, 0.110);
+    border-radius: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    margin-bottom: 2rem;
+    height: 60px;
+    width: 60px;
+    transition: all 0.3s;
+   
+   
+}
+
+#I, #II, #III, #IV {
+    margin-right: 1.1rem;
+}
+
+
+.submit-button {
+    width: 400px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    
+}
+
+#I:hover, #II:hover, #III:hover, #IV:hover, #V:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+   
+}
+
+.submit-button:active {
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+#I:active, #II:active, #III:active, #IV:active, #V:active {
+    cursor: pointer;
+}
+
+
+    
