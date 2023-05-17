@@ -42,7 +42,7 @@ body {
 
 #container {
     padding: 3.5rem;
-   
+
 }
 
 #text {
@@ -52,7 +52,8 @@ body {
 
 }
 
-.num {
+#I, #II, #III, #IV, #V {
+
     display: inline-block;
     color: hsl(217, 12%, 63%);
     background-color: hsla(217, 12%, 63%, 0.110);
@@ -102,5 +103,14 @@ body {
     cursor: pointer;
 }
 
+.activeSelection {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.nonActiveSelection {
+    color: hsl(217, 12%, 63%);
+    background-color: hsla(217, 12%, 63%, 0.110);
+}
 
     
