@@ -15,50 +15,125 @@ function GetOption(option) {
 
    switch (option) {
 
-        case 1:
-            opt = 1
-            backgroundColor = document.getElementById("I")
-            backgroundColor.style.backgroundColor = "hsl(25, 97%, 53%)"
-            color = document.getElementById("I")
-            color.style.color = "white"
-            
-            break 
+    case 1:
+        opt = 1
+        element = document.getElementById("I")
+        element.style.color = "white"
+        element.style.backgroundColor = "hsl(25, 97%, 53%)"
+        
+        element2 = document.getElementById("II")
+        element2.style.color = "hsl(217, 12%, 63%)"
+        element2.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        element3 = document.getElementById("III")
+        element3.style.color = "hsl(217, 12%, 63%)"
+        element3.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        element4 = document.getElementById("IV")
+        element4.style.color = "hsl(217, 12%, 63%)"
+        element4.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        element5 = document.getElementById("V")
+        element5.style.color = "hsl(217, 12%, 63%)"
+        element5.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
 
-            case 2:
-            opt = 2
-            backgroundColor = document.getElementById("II")
-            backgroundColor.style.backgroundColor = "hsl(25, 97%, 53%)"
-            color = document.getElementById("II")
-            color.style.color = "white"
-            
-            break
+        break 
 
-            case 3:
-            opt = 3
-            backgroundColor = document.getElementById("III")
-            backgroundColor.style.backgroundColor = "hsl(25, 97%, 53%)"
-            color = document.getElementById("III")
-            color.style.color = "white"
-            
-            break
+        case 2:
+        opt = 2
+        element2 = document.getElementById("II")
+        element2.style.color = "white"
+        element2.style.backgroundColor = "hsl(25, 97%, 53%)"
+        
+        element = document.getElementById("I")
+        element.style.color = "hsl(217, 12%, 63%)"
+        element.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        element3 = document.getElementById("III")
+        element3.style.color = "hsl(217, 12%, 63%)"
+        element3.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        element4 = document.getElementById("IV")
+        element4.style.color = "hsl(217, 12%, 63%)"
+        element4.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        element5 = document.getElementById("V")
+        element5.style.color = "hsl(217, 12%, 63%)"
+        element5.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        break
 
-            case 4:
-            opt = 4 
-            backgroundColor = document.getElementById("IV")
-            backgroundColor.style.backgroundColor = "hsl(25, 97%, 53%)"
-            color = document.getElementById("IV")
-            color.style.color = "white"
-            
-            break
+        case 3:
+        opt = 3
+        element3 = document.getElementById("III")
+        element3.style.color = "white"
+        element3.style.backgroundColor = "hsl(25, 97%, 53%)"
+        
+        element2 = document.getElementById("II")
+        element2.style.color = "hsl(217, 12%, 63%)"
+        element2.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        element = document.getElementById("I")
+        element.style.color = "hsl(217, 12%, 63%)"
+        element.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        element4 = document.getElementById("IV")
+        element4.style.color = "hsl(217, 12%, 63%)"
+        element4.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        element5 = document.getElementById("V")
+        element5.style.color = "hsl(217, 12%, 63%)"
+        element5.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        break
 
-            case 5:
-            opt = 5 
-            backgroundColor = document.getElementById("V")
-            backgroundColor.style.backgroundColor = "hsl(25, 97%, 53%)"
-            color = document.getElementById("V")
-            color.style.color = "white"
-           
-            break
+        case 4:
+        opt = 4 
+        element4 = document.getElementById("IV")
+        element4.style.color = "white"
+        element4.style.backgroundColor = "hsl(25, 97%, 53%)"
+        
+        element2 = document.getElementById("II")
+        element2.style.color = "hsl(217, 12%, 63%)"
+        element2.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        element3 = document.getElementById("III")
+        element3.style.color = "hsl(217, 12%, 63%)"
+        element3.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        element = document.getElementById("I")
+        element.style.color = "hsl(217, 12%, 63%)"
+        element.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        element5 = document.getElementById("V")
+        element5.style.color = "hsl(217, 12%, 63%)"
+        element5.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        break
+
+        case 5:
+        opt = 5
+        element5 = document.getElementById("V")
+        element5.style.color = "white"
+        element5.style.backgroundColor = "hsl(25, 97%, 53%)"
+        
+        element2 = document.getElementById("II")
+        element2.style.color = "hsl(217, 12%, 63%)"
+        element2.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        element3 = document.getElementById("III")
+        element3.style.color = "hsl(217, 12%, 63%)"
+        element3.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        element4 = document.getElementById("IV")
+        element4.style.color = "hsl(217, 12%, 63%)"
+        element4.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+        
+        element = document.getElementById("I")
+        element.style.color = "hsl(217, 12%, 63%)"
+        element.style.backgroundColor = "hsl(217, 12%, 63%, 0.110)"
+       
+        break
     } 
 
     return opt
